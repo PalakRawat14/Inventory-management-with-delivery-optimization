@@ -1,0 +1,255 @@
+/* Modern dark gradient background */
+body {
+    background: linear-gradient(135deg, #232526 0%, #414345 100%);
+    min-height: 100vh;
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    color: #e0eafc;
+}
+
+/* Navbar styling */
+.navbar-info {
+    background: linear-gradient(90deg, #232526 0%, #36d1c4 100%) !important;
+    box-shadow: 0 2px 8px rgba(54, 209, 196, 0.15);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    color: #ffd700 !important;
+}
+
+.nav-link {
+    transition: color 0.2s;
+    color: #e0eafc !important;
+}
+
+.nav-link:hover {
+    color: #36d1c4 !important;
+}
+
+/* Card enhancements */
+.card {
+    border: none;
+    border-radius: 20px;
+    background: #23272b;
+    box-shadow: 0 4px 24px rgba(54, 209, 196, 0.10);
+    transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px) scale(1.03);
+    box-shadow: 0 8px 32px rgba(54, 209, 196, 0.18);
+    background: #282c34;
+}
+
+.card-header {
+    border-radius: 20px 20px 0 0 !important;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    background: linear-gradient(90deg, #36d1c4 0%, #232526 100%);
+    color: #ffd700 !important;
+    border: none;
+}
+
+/* Statistic cards */
+.my-card {
+    background: linear-gradient(135deg, #232526 60%, #2c3e50 100%);
+    border-radius: 18px;
+    margin-bottom: 18px;
+    transition: box-shadow 0.2s, background 0.2s, color 0.2s;
+    box-shadow: 0 2px 12px rgba(54, 209, 196, 0.08);
+    color: #e0eafc !important;
+}
+
+.my-card:hover {
+    background: linear-gradient(135deg, #36d1c4 60%, #232526 100%);
+    color: #ffd700 !important;
+    box-shadow: 0 6px 24px rgba(54, 209, 196, 0.18);
+}
+
+.my-card h4, .my-card h3 {
+    margin: 0.5rem 0;
+    color: inherit;
+}
+
+/* Delivery card special icon */
+.my-card .fa-map-marked-alt {
+    font-size: 2rem;
+    color: #36d1c4;
+}
+
+.my-card:hover .fa-map-marked-alt {
+    color: #ffd700;
+}
+
+/* Button styling */
+.btn-info {
+    background: linear-gradient(90deg, #36d1c4 0%, #232526 100%);
+    border: none;
+    border-radius: 25px;
+    font-weight: 600;
+    padding: 0.6rem 2rem;
+    box-shadow: 0 2px 8px rgba(54, 209, 196, 0.10);
+    transition: background 0.2s, box-shadow 0.2s, color 0.2s;
+    color: #fff !important;
+    letter-spacing: 1px;
+}
+
+.btn-info:hover, .btn-info:focus {
+    background: linear-gradient(90deg, #ffd700 0%, #36d1c4 100%);
+    color: #232526 !important;
+    box-shadow: 0 4px 16px rgba(54, 209, 196, 0.18);
+    text-decoration: none;
+}
+
+/* Chart containers */
+.bg-white.p-3 {
+    border-radius: 20px;
+    background: #23272b !important;
+    box-shadow: 0 2px 12px rgba(54, 209, 196, 0.08);
+    color: #e0eafc;
+}
+
+/* Center the "Go to Delivery Route Map" button */
+a.btn-info {
+    display: block;
+    width: max-content;
+    margin: 2rem auto 2rem auto;
+}
+
+/* Marquee styling */
+marquee h3 {
+    color: #36d1c4;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+}
+
+/* Chart.js and ApexCharts dark mode tweaks */
+canvas,
+#chart svg {
+    background: transparent !important;
+}
+
+.apexcharts-tooltip, .apexcharts-menu {
+    background: #23272b !important;
+    color: #e0eafc !important;
+    border-radius: 10px !important;
+    border: none !important;
+}
+
+/* Product/Delivery Form Container */
+.form-container {
+    background: #23272b;
+    border-radius: 18px;
+    box-shadow: 0 2px 12px rgba(54, 209, 196, 0.08);
+    padding: 2rem 2.5rem;
+    max-width: 600px;
+    margin: 0 auto 2rem auto;
+}
+
+.form-container label {
+    color: #ffd700;
+    font-weight: 500;
+}
+
+.form-control {
+    background: #232526;
+    border: 1px solid #36d1c4;
+    color: #e0eafc;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-control:focus {
+    border: 1.5px solid #ffd700;
+    background: #232526;
+    color: #ffd700;
+}
+
+.table.bg-white {
+    background: #23272b !important;
+    color: #e0eafc;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(54, 209, 196, 0.08);
+}
+
+.table.bg-white th, .table.bg-white td {
+    vertical-align: middle;
+}
+
+thead.bg-info tr {
+    background: linear-gradient(90deg, #36d1c4 0%, #232526 100%) !important;
+}
+
+.table.bg-white tr {
+    border-bottom: 1px solid #2c3e50;
+}
+
+.table.bg-white tr:last-child {
+    border-bottom: none;
+}
+
+.btn-success {
+    background: linear-gradient(90deg, #36d1c4 0%, #232526 100%);
+    border: none;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: background 0.2s, color 0.2s;
+    color: #fff !important;
+}
+
+.btn-success:hover, .btn-success:focus {
+    background: linear-gradient(90deg, #ffd700 0%, #36d1c4 100%);
+    color: #232526 !important;
+}
+
+.btn-info, .btn-danger {
+    border-radius: 20px;
+    font-weight: 600;
+    padding: 0.3rem 1rem;
+}
+
+.btn-info {
+    background: linear-gradient(90deg, #36d1c4 0%, #232526 100%);
+    color: #fff !important;
+}
+
+.btn-info:hover, .btn-info:focus {
+    background: linear-gradient(90deg, #ffd700 0%, #36d1c4 100%);
+    color: #232526 !important;
+}
+
+.btn-danger {
+    background: linear-gradient(90deg, #ff4e50 0%, #232526 100%);
+    color: #fff !important;
+}
+
+.btn-danger:hover, .btn-danger:focus {
+    background: linear-gradient(90deg, #ffd700 0%, #ff4e50 100%);
+    color: #232526 !important;
+}
+
+/* Responsive tweaks */
+@media (max-width: 767px) {
+    .my-card {
+        margin-bottom: 1.5rem;
+    }
+    .bg-white.p-3 {
+        margin-bottom: 1.5rem;
+    }
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .form-container {
+        padding: 1rem;
+        max-width: 98vw;
+    }
+}
