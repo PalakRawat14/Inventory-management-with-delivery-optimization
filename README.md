@@ -95,6 +95,89 @@ cybersecurity/
 ├── products.json
 ├── warehouses.json
 ├── README.md
+__________________________________________________________________________________________________________________________________________________________
+✨ **FEATURES OF THIS PROJECT**
+
+🛒 **1. Inventory Management**
+
+View and manage available products.
+
+Tracks stock levels using products.json.
+
+Auto-updates product availability after orders.
+
+📦 **2. Order Processing**
+
+Takes customer orders via a web interface (order.html).
+
+Stores orders in orders.json.
+
+Validates product availability before confirmation.
+
+
+🚚 **3. Delivery Optimization**
+
+Assigns deliveries to staff automatically.
+
+Displays delivery routes using maps (delivery_route_map.html).
+
+Tracks status: "Pending", "In Transit", "Delivered".
+
+
+🏬 **4. Warehouse Integration**
+
+Maps products to nearest warehouse (warehouses.json).
+
+Optimizes delivery path based on warehouse location.
+
+
+👨‍💼 **5. Staff Management**
+
+Separate views for staff (staff.html, staff_index.html).
+
+Assign orders and deliveries to specific staff.
+
+View delivery history by person.
+
+
+🔐 **6. Verification System**
+
+Verifies deliveries (verify.py, verify.html).
+
+Confirms delivery with order ID or other data.
+
+Can be extended to OTP or QR verification.
+
+
+🌐 **7. User-Friendly Web Interface**
+
+Built with Flask + HTML templates (templates/ folder).
+
+Styled with style.css.
+
+Responsive pages for product listing, ordering, and tracking.
+
+
+🧾 **8. Real-Time Status Tracking**
+
+Uses deliveries.json to dynamically update delivery status.
+
+Shows current state and time of delivery.
+
+
+🧠 **9. Modular Code Structure**
+
+Clearly separated modules: app.py, backend.py, verify.py
+
+Easy to maintain and scale.
+
+
+🧪 **10. Testable with Mock Data**
+
+Uses clean, readable JSON datasets.
+
+Easy to simulate new deliveries or edge cases for testing.
+
 ___________________________________________________________________________________________________________________________________________________________
 🧠**HOW THE DATASET WORK TOGETHER**
 
@@ -105,3 +188,14 @@ orders.json → Requests product delivery
 deliveries.json → Tracks logistics status
 
 warehouses.json → Helps assign nearest dispatch center
+__________________________________________________________________________________________________________________________________________________________________
+
+💻**TEAM DASH**
+
+. Nikhil Thapa
+
+. Palak Rawat
+
+. Paritosh Chauhan
+
+. Yogesh Ale
